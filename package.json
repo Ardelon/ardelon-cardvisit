@@ -1,4 +1,6 @@
 {
-    "name" : "@ardelon/cardvisit",
-    "version" : "1.0.0"
+    "name": "ardelon-npm-with-webpack",
+    "version": "1.0.5",
+    "main" : "index.js",
+    "module" : "index.js"
 }
