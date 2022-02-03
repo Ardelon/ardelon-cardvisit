@@ -1,0 +1,46 @@
+.identity-container {
+    width: 200px;
+    height: 225px;
+    background-color: thistle;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.identity-container-logoContainer {
+    width: 200px;
+    height: 150px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.identity-container-logo {
+    width: 135px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 158px;
+    box-sizing: border-box;
+    margin: auto;
+    
+    cursor: pointer;
+}
+
+.identity-container-description {
+    width: 200px;
+    height: 75px;
+    line-height: 75px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+}
+
+.left-top {
+    left: 0;
+    top: 0;
+}
+
+.right-top {
+    right: 0;
+    top: 0;
+}

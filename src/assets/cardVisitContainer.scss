@@ -1,0 +1,38 @@
+@keyframes expand {
+    from {width: 700px;}
+    to {width: 400px;}
+}
+
+
+.card-visit-container {
+
+    width: 700px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    // animation-name: expand;
+    // animation-duration: 4s;
+}
+
+
+
+.card-visit-background-container {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    
+}
+
+.card-visit-container-upper-body {
+    width: 700px;
+    height: 225px;
+    background-color: teal;
+    position: relative;
+}
+
+.card-visit-container-lower-body {
+    width: 700px;
+    height: 75px;
+    background-color: salmon;
+    position: relative;
+}
