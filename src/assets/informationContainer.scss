@@ -5,27 +5,34 @@
     position: relative;
     background-color: black;
     color : white;
+    font-size: 24px;
+    text-align: center;
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 .information-container-name {
-
+    margin: 15px auto 15px;
 }
 
 .information-container-mail {
-
+    margin: 15px auto 15px;
 }
 
 .information-container-address {
-
+    margin: 15px auto 15px;
 }
 
 .information-container-social-media-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 5px 0 5px;
+    margin: 15px 0 15px;
     bottom: 0;
-    position: absolute;
+    // position: absolute;
 }
 
 .information-logo {
@@ -33,12 +40,18 @@
     justify-content: center;
     width: 60px;
     height: 60px;
-    background-color: yellow;
+    border: 1px solid black;
     display: flex;
     border-radius: 60px;
+
+    &:hover {
+        background-color: white;
+    }
 }
 
 .information-logo-image {
     width: 40px;
     height: 40px;
+    cursor: pointer;
+    
 }
