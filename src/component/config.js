@@ -14,7 +14,13 @@ export const configIdentityContainer = {
 
 export const configInformationContainer = {
     informationContainerConfig : {classList : ["information-container"]},
-    informationContainerName : {classList : ["information-container-name"]},
-    informationContainerMail : {classList : ["information-container-mail"]}
+    informationContainerNameConfig : {classList : ["information-container-name"], innerText : "Alihan Keskin"},
+    informationContainerMailConfig : {classList : ["information-container-mail"], innerText : "akeskinw@gmail.com"},
+    informationContainerAddressConfig : {classList : ["information-container-address"], innerText : "Şişli / Istanbul"},
+    informationContainerSocialMediaContainerConfig : {classList : ["information-container-social-media-container"]}
 }
 
+export const configInformationLogo = {
+    informationLogoContainerConfig : {classList : ["information-logo"]},
+    informationLogoImageConfig : {classList : ["information-logo-image"], type : 'img'}
+}

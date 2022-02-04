@@ -1,0 +1,44 @@
+.information-container {
+    width: 300px;
+    height: 225px;
+    left: 200px;
+    position: relative;
+    background-color: black;
+    color : white;
+}
+
+.information-container-name {
+
+}
+
+.information-container-mail {
+
+}
+
+.information-container-address {
+
+}
+
+.information-container-social-media-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px 0 5px;
+    bottom: 0;
+    position: absolute;
+}
+
+.information-logo {
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    display: flex;
+    border-radius: 60px;
+}
+
+.information-logo-image {
+    width: 40px;
+    height: 40px;
+}

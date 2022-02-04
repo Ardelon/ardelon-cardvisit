@@ -1,6 +1,7 @@
 import { createElement } from "./utilities";
 import { configCardVisit } from "./config";
 import identity from "./identityContainer";
+import information from "./informationContainer";
 import * as url from '../assets/images/avatar.jpg';
 
 const cardvisitContainer = () => {
@@ -19,6 +20,7 @@ const cardvisitContainer = () => {
 
     cardVisitContainerUpperBody.appendChild(person)
     cardVisitContainerUpperBody.appendChild(company)
+    cardVisitContainerUpperBody.appendChild(information());
 
     cardVisitContainer.appendChild(cardVisitBackgroundContainer);
     cardVisitContainer.appendChild(cardVisitContainerUpperBody);
