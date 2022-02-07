@@ -3,8 +3,8 @@
     height: 225px;
     left: 200px;
     position: relative;
-    background-color: black;
-    color : white;
+    // background-color: black;
+    // color : white;
     font-size: 24px;
     text-align: center;
     overflow-x: auto;
@@ -40,12 +40,12 @@
     justify-content: center;
     width: 60px;
     height: 60px;
-    border: 1px solid black;
+    border: 1px solid $support-color-1;
     display: flex;
     border-radius: 60px;
 
     &:hover {
-        background-color: white;
+        background-color: $support-color-1;
     }
 }
 

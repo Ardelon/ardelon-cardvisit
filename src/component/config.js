@@ -24,3 +24,8 @@ export const configInformationLogo = {
     informationLogoContainerConfig : {classList : ["information-logo"]},
     informationLogoImageConfig : {classList : ["information-logo-image"], type : 'img'}
 }
+
+export const configTechStackLogo = {
+    techStackLogoContainerConfig : {classList : ["tech-stack-logo-container"]},
+    techStackLogoConfig : {classList : ["tech-stack-logo"], type : 'img'}
+}

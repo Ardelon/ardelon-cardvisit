@@ -1,7 +1,7 @@
 .identity-container {
     width: 200px;
     height: 225px;
-    background-color: thistle;
+    // background-color: thistle;
     box-sizing: border-box;
     position: absolute;
 }
@@ -18,7 +18,7 @@
 .identity-container-logo {
     width: 135px;
     height: auto;
-    border: 2px solid black;
+    border: 2px solid $support-color-1;
     border-radius: 158px;
     box-sizing: border-box;
     margin: auto;

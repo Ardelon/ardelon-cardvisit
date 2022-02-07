@@ -8,7 +8,7 @@
 
     width: 700px;
     height: 300px;
-    background-color: white;
+    // background-color: white;
     position: relative;
     // animation-name: expand;
     // animation-duration: 4s;
@@ -20,19 +20,36 @@
     width: inherit;
     height: inherit;
     position: absolute;
+    background-color: $primary-color;
     
 }
 
 .card-visit-container-upper-body {
     width: 700px;
     height: 225px;
-    background-color: teal;
+    // background-color: teal;
     position: relative;
 }
 
 .card-visit-container-lower-body {
     width: 700px;
     height: 75px;
-    background-color: salmon;
+    background-color: $secondary-color;
     position: relative;
+    display: flex;
+
+    .tech-stack-logo-container {
+        height: inherit;
+        width: 75px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .tech-stack-logo {
+        width: 50px;
+        height: auto;
+
+        cursor: pointer;
+    }
 }

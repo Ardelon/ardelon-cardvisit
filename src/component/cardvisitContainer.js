@@ -1,6 +1,7 @@
-import { createElement } from "./utilities";
+import { createElement, techStack } from "./utilities";
 import { configCardVisit } from "./config";
 import identity from "./identityContainer";
+import techStackLogo from "./techStackLogo";
 import information from "./informationContainer";
 import * as url from '../assets/images/avatar.jpg';
 
@@ -16,6 +17,11 @@ const cardvisitContainer = () => {
     
     const person = identity(url.default,"Selam Gardaş", "https://www.google.com", "right-top");
     const company = identity("https://ibb.istanbul/assets/images/logos/main-logo-light.png", "IBB", "https://ibb.istanbul/", "left-top");
+
+    techStack.forEach(techStackInfo => {
+        const techStackElement = techStackLogo(techStackInfo);
+        cardVisitContainerLowerBody.appendChild(techStackElement)
+    })
     
 
     cardVisitContainerUpperBody.appendChild(person)
